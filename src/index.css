@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(242, 237, 237);
+}
+tr:nth-child(even) {
+  background-color: rgb(251, 234, 234);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.container {
+  line-height: 2;
+  background-color: #c698a57d;
+}
+
+.btn{
+  background: rgb(18, 70, 167);
+  height: 25px;
+  width: 65px;
+  border: 1px solid rgb(18, 70, 167);
+  border-radius: 5px;
+  color: aliceblue;
+  margin: 5px;
+  cursor: pointer;
+}
